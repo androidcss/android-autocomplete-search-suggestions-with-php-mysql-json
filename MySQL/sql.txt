@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS `tbl_fish` (
+  `fish_id` int(11) NOT NULL AUTO_INCREMENT,
+  `fish_name` varchar(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+
+INSERT INTO `tbl_fish` (`fish_id`, `fish_name`) VALUES
+(1, 'Indian Mackerel'),
+(2, 'Manthal Repti'),
+(3, 'Baby Sole Fish'),
+(4, 'Clam Meat'),
+(5, 'Indian Prawn'),
+(6, 'Lamp'),
+(7, 'Kandike');
